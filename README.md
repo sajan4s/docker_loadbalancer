@@ -6,4 +6,6 @@ The opened port inside app1 and app2 containers are 5000 (default port used by f
 
 The load balancer will route traffic to the appropriate application based on that port. 
 
+Ngnix IP addresses used in the ngnix configuration file "172.21.0.1". You can change this according to your machine. 
+
 The load balancer (Nginx) will expose his internal 80 port to 8080, so we can access the application from http://localhost:8080
